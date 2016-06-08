@@ -10,8 +10,7 @@ class B(Second, Parent):
         self.isSecond = 1
 
     def isFirst(self):
-        if self.isSecond == 1:
-            return 0
+        return 0
 
     def fnc(self, value1, value2):
         return value1 * value2 * self.value

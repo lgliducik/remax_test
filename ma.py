@@ -41,8 +41,7 @@ class A(First, Parent, object):
         self.i = 3
 
     def isFirst(self):
-        if self.isSecond == 0:
-            return self.isSecond + 1
+        return 1
 
     def fnc(self, value):
         if value == 7:
